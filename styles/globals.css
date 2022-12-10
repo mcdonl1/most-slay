@@ -29,9 +29,10 @@ a {
     width: 20rem;
     height: 20rem;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   .card:hover {

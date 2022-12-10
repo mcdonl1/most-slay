@@ -22,6 +22,10 @@ export default function Home() {
             }}
           >
             <h2>Candidate 1</h2>
+            <p className="description">
+              This one is super super slimey! Ahaha like slime or something else
+              slimey like slime.
+            </p>
           </div>
           <div
             className="card"
@@ -30,6 +34,9 @@ export default function Home() {
             }}
           >
             <h2>Candidate 2</h2>
+            <p className="description">
+              This one is kinda small, but in a short king sorta way, you know?
+            </p>
           </div>
         </div>
       </div>
