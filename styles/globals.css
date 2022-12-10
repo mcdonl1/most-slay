@@ -26,8 +26,8 @@ a {
 
   .card {
     background-color: rgb(50, 50, 50);
-    width: 40vw;
-    height: 40vh;
+    width: 20rem;
+    height: 20rem;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -40,9 +40,8 @@ a {
 
   .voting-pane {
     display: flex;
-    width: 100%;
-    height: 100%;
     justify-content: space-around;
     align-items: center;
+    height: 70vh;
   }
 }
