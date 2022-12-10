@@ -21,11 +21,11 @@ a {
   }
   body {
     color: rgb(210, 198, 198);
-    background: rgb(33, 33, 33);
+    background: rgb(29, 28, 36);
   }
 
   .card {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(41, 41, 50);
     width: 20rem;
     height: 20rem;
     display: flex;
@@ -36,7 +36,7 @@ a {
   }
 
   .card:hover {
-    background-color: rgb(65, 55, 55);
+    background-color: rgb(47, 49, 61);
     cursor: pointer;
   }
 
