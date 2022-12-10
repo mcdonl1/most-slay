@@ -24,7 +24,8 @@ a {
     background: rgb(29, 28, 36);
   }
 
-  .card {
+  .card,
+  .results-card {
     background-color: rgb(41, 41, 50);
     width: 20rem;
     height: 20rem;
