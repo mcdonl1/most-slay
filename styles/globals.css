@@ -36,6 +36,7 @@ a {
 
   .card:hover {
     background-color: rgb(65, 55, 55);
+    cursor: pointer;
   }
 
   .voting-pane {
