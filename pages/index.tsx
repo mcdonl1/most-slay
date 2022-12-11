@@ -15,7 +15,7 @@ export default function Home() {
         </p>
         <div className="flex flex-wrap justify-evenly">
           <div
-            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly bg-slate-800 hover:bg-slate-700"
+            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly rounded-md bg-slate-800 hover:bg-slate-700"
             onClick={() => {
               alert("TODO: cast vote for Meowth");
             }}
@@ -28,7 +28,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly bg-slate-800 hover:bg-slate-700"
+            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly rounded-md bg-slate-800 hover:bg-slate-700"
             onClick={() => {
               alert("TODO: cast vote for Charmander");
             }}
