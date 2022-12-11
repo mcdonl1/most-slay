@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     // Example use of backend api call
-    fetch("./api/hello").then((data) =>
+    fetch("/api/hello").then((data) =>
       data.json().then((obj) => console.log(obj))
     );
   }, []);
