@@ -1,7 +1,12 @@
 import Head from "next/head";
-import { HTMLAttributes, useEffect } from "react";
-
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    // Example use of backend api call
+    fetch("./api/hello").then((data) =>
+      data.json().then((obj) => console.log(obj))
+    );
+  }, []);
   return (
     <>
       <Head>
