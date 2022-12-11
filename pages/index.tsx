@@ -22,8 +22,8 @@ export default function Home() {
           >
             <h2 className="text-2xl">Meowth</h2>
             <img
-              height="135px"
-              width="135px"
+              height="180px"
+              width="180px"
               src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
             />
           </div>
@@ -35,8 +35,8 @@ export default function Home() {
           >
             <h2 className="text-2xl">Charmander</h2>
             <img
-              height="135px"
-              width="135px"
+              height="180px"
+              width="180px"
               src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
             />
           </div>
