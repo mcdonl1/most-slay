@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Something Something Slay</title>
       </Head>
-      <div className="m-0 h-screen w-screen  bg-slate-900 text-center font-mono text-blue-100">
+      <div className="m-0 h-full min-h-screen w-screen bg-slate-900 p-5 text-center font-mono text-blue-100">
         <h1 className="p-10 text-center text-3xl">VOTE FOR MOST SLAY</h1>
         <p className="text-center">
           Vote for which of the two displayed pokemon (or something else) is the
@@ -15,7 +15,7 @@ export default function Home() {
         </p>
         <div className="flex flex-wrap justify-evenly">
           <div
-            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly rounded-md bg-slate-800 hover:bg-slate-700"
+            className="mt-10 flex h-60 w-60 flex-col items-center justify-evenly rounded-md bg-slate-800 hover:bg-slate-700"
             onClick={() => {
               alert("TODO: cast vote for Meowth");
             }}
@@ -28,7 +28,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly rounded-md bg-slate-800 hover:bg-slate-700"
+            className=" mt-10 flex h-60 w-60 flex-col items-center justify-evenly rounded-md bg-slate-800 hover:bg-slate-700 sm:mb-5"
             onClick={() => {
               alert("TODO: cast vote for Charmander");
             }}
