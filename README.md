@@ -12,6 +12,8 @@ npm install
 
 Also install the Tailwind extension in VSCode for better linting and autocomplete.
 
+The `main` branch is hosted at [https://most-slay.vercel.app/](https://most-slay.vercel.app/)
+
 ## Running the dev server
 
 ```bash
@@ -37,5 +39,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [ ] Choose what to vote on
 - [ ] Complete front end interface
 - [ ] Add database
-- [ ] Set up hosting
+- [x] Set up hosting
 - [ ]
