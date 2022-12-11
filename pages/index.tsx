@@ -1,6 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import { useEffect } from "react";
+import { HTMLAttributes, useEffect } from "react";
 
 export default function Home() {
   return (
@@ -8,35 +7,38 @@ export default function Home() {
       <Head>
         <title>Something Something Slay</title>
       </Head>
-      <div className={styles.container}>
-        <h1>VOTE FOR MOST SLAY</h1>
-        <p>
+      <div className="m-0 h-screen w-screen  bg-slate-900 text-center font-mono text-blue-100">
+        <h1 className="p-10 text-center text-3xl">VOTE FOR MOST SLAY</h1>
+        <p className="text-center">
           Vote for which of the two displayed pokemon (or something else) is the
           most slay
         </p>
-        <div className="voting-pane">
+        <div className="flex flex-wrap justify-evenly">
           <div
-            className="card"
+            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly bg-slate-800 hover:bg-slate-700"
             onClick={() => {
-              alert("lol u voted for a template");
+              alert("TODO: cast vote for Meowth");
             }}
           >
-            <h2>Candidate 1</h2>
-            <p className="description">
-              This one is super super slimey! Ahaha like slime or something else
-              slimey like slime.
-            </p>
+            <h2 className="text-2xl">Meowth</h2>
+            <img
+              height="135px"
+              width="135px"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
+            />
           </div>
           <div
-            className="card"
+            className="m-10 flex h-60 w-60 flex-col items-center justify-evenly bg-slate-800 hover:bg-slate-700"
             onClick={() => {
-              alert("Click here if u are a silly goose");
+              alert("TODO: cast vote for Charmander");
             }}
           >
-            <h2>Candidate 2</h2>
-            <p className="description">
-              This one is kinda small, but in a short king sorta way, you know?
-            </p>
+            <h2 className="text-2xl">Charmander</h2>
+            <img
+              height="135px"
+              width="135px"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+            />
           </div>
         </div>
       </div>

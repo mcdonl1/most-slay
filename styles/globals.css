@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,38 +17,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: rgb(210, 198, 198);
-    background: rgb(29, 28, 36);
-  }
-
-  .card,
-  .results-card {
-    background-color: rgb(41, 41, 50);
-    width: 20rem;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .card:hover {
-    background-color: rgb(47, 49, 61);
-    cursor: pointer;
-  }
-
-  .voting-pane {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 70vh;
-  }
 }
