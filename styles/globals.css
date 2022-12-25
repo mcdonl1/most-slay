@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -21,29 +25,6 @@ a {
   }
   body {
     color: white;
-    background: rgb(33, 33, 33);
-    height: 100vh;
-  }
-
-  .card {
-    background-color: rgb(50, 50, 50);
-    width: 40vw;
-    height: 40vh;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .card:hover {
-    background-color: rgb(65, 55, 55);
-  }
-
-  .voting-pane {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
+    background: black;
   }
 }
